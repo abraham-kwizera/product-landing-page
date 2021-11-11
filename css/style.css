@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+
+.page {
+    position: relative;
+}
+
+header {
+    margin-top: 30px;
+}
+
+.header-img {
+    align-items: relative;
+}
+
+.nav-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    justify-content: flex-end;
+    display: flex;
+    overflow: hidden;
+}
+
+.nav-bar>ul {
+    justify-content: flex-end;
+}
+
+.nav-bar>ul>li {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .nav-link {
+    text-decoration: none;
+} */
+
+
+/* hello section */
+
+#hello {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#hello>h1 {
+    margin-bottom: 20px;
+}
+
+#hello>form>input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#hello>form>input[type="submit"] {
+    background-color: #f1c40f;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 0;
+}
+
+#hello>form>input[type="submit"]:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    max-width: 1010px;
+    margin: 0 auto;
+}
+
+#features {
+    margin-top: 20px;
+}
+
+#features .icon {
+    display: flex;
+    justify-content: center;
+    color: darkorange;
+    height: 130px;
+    width: 100px;
+    align-items: center;
+    padding: 5px;
+}
+
+#features .discription {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(233, 229, 229);
+    margin-top: 40px;
+    padding: 15px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+footer>ul>li {
+    padding: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black!important;
+}
+
+footer>span {
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 20px;
+}
